@@ -17,6 +17,8 @@ let data = PDFGraphics(with: CGSize(width: 100, height: 100)) { (ctx) in
 try? data.write(to: url)
 ```
 
+![Screenshot](./Images/screenshot.png)
+
 ## As image
 
 - macOS: PDF data is **supported** by NSImage
