@@ -5,6 +5,9 @@
       location = "group:PDFGraphics-macOS.playground">
    </FileRef>
    <FileRef
+      location = "group:PDFGraphics-iOS.playground">
+   </FileRef>
+   <FileRef
       location = "group:PDFGraphics.xcodeproj">
    </FileRef>
 </Workspace>

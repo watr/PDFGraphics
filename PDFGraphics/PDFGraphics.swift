@@ -7,7 +7,11 @@
 //
 
 import Foundation
+#if os(macOS)
 import Quartz
+#elseif os(iOS)
+import QuartzCore
+#endif
 
 public func PDFGraphics(with size: CGSize,
                 render: ((CGContext) -> Void)) -> Data {
