@@ -25,7 +25,7 @@ try? data.write(to: url)
 - iOS: PDF data is **NOT supported** by UIImage
 
 
-## As data
+## As PDF
 
 PDFKit is also available in macOS and iOS. You can present PDF data using PDFView with PDFDocument.
 
