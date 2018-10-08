@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import PDFGraphics_iOS
+@testable import PDFGraphics
 
 class PDFGraphics_iOSTests: XCTestCase {
 

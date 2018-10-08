@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F9AAF4B216B669300191D94"
+               BlueprintIdentifier = "2F9AAFA6216B855C00191D94"
                BuildableName = "PDFGraphics.framework"
-               BlueprintName = "PDFGraphics"
+               BlueprintName = "PDFGraphics-iOS"
+               ReferencedContainer = "container:PDFGraphics.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F9AAFAE216B855C00191D94"
+               BuildableName = "PDFGraphics-iOSTests.xctest"
+               BlueprintName = "PDFGraphics-iOSTests"
                ReferencedContainer = "container:PDFGraphics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F9AAF54216B669300191D94"
-               BuildableName = "PDFGraphicsTests.xctest"
-               BlueprintName = "PDFGraphicsTests"
+               BlueprintIdentifier = "2F9AAFAE216B855C00191D94"
+               BuildableName = "PDFGraphics-iOSTests.xctest"
+               BlueprintName = "PDFGraphics-iOSTests"
                ReferencedContainer = "container:PDFGraphics.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2F9AAF4B216B669300191D94"
+            BlueprintIdentifier = "2F9AAFA6216B855C00191D94"
             BuildableName = "PDFGraphics.framework"
-            BlueprintName = "PDFGraphics"
+            BlueprintName = "PDFGraphics-iOS"
             ReferencedContainer = "container:PDFGraphics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +78,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2F9AAF4B216B669300191D94"
+            BlueprintIdentifier = "2F9AAFA6216B855C00191D94"
             BuildableName = "PDFGraphics.framework"
-            BlueprintName = "PDFGraphics"
+            BlueprintName = "PDFGraphics-iOS"
             ReferencedContainer = "container:PDFGraphics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +96,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2F9AAF4B216B669300191D94"
+            BlueprintIdentifier = "2F9AAFA6216B855C00191D94"
             BuildableName = "PDFGraphics.framework"
-            BlueprintName = "PDFGraphics"
+            BlueprintName = "PDFGraphics-iOS"
             ReferencedContainer = "container:PDFGraphics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
