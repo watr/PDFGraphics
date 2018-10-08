@@ -165,9 +165,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2F9AAF4B216B669300191D94 /* PDFGraphics */ = {
+		2F9AAF4B216B669300191D94 /* PDFGraphics-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F9AAF60216B669300191D94 /* Build configuration list for PBXNativeTarget "PDFGraphics" */;
+			buildConfigurationList = 2F9AAF60216B669300191D94 /* Build configuration list for PBXNativeTarget "PDFGraphics-macOS" */;
 			buildPhases = (
 				2F9AAF47216B669300191D94 /* Headers */,
 				2F9AAF48216B669300191D94 /* Sources */,
@@ -178,7 +178,7 @@
 			);
 			dependencies = (
 			);
-			name = PDFGraphics;
+			name = "PDFGraphics-macOS";
 			productName = PDFGraphics;
 			productReference = 2F9AAF4C216B669300191D94 /* PDFGraphics.framework */;
 			productType = "com.apple.product-type.framework";
@@ -274,7 +274,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F9AAF4B216B669300191D94 /* PDFGraphics */,
+				2F9AAF4B216B669300191D94 /* PDFGraphics-macOS */,
 				2F9AAF54216B669300191D94 /* PDFGraphicsTests */,
 				2F9AAFA6216B855C00191D94 /* PDFGraphics-iOS */,
 				2F9AAFAE216B855C00191D94 /* PDFGraphics-iOSTests */,
@@ -351,7 +351,7 @@
 /* Begin PBXTargetDependency section */
 		2F9AAF58216B669300191D94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F9AAF4B216B669300191D94 /* PDFGraphics */;
+			target = 2F9AAF4B216B669300191D94 /* PDFGraphics-macOS */;
 			targetProxy = 2F9AAF57216B669300191D94 /* PBXContainerItemProxy */;
 		};
 		2F9AAFB2216B855C00191D94 /* PBXTargetDependency */ = {
@@ -503,7 +503,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.wataruhash.PDFGraphics;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = PDFGraphics;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -530,7 +530,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.wataruhash.PDFGraphics;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = PDFGraphics;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 			};
@@ -680,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F9AAF60216B669300191D94 /* Build configuration list for PBXNativeTarget "PDFGraphics" */ = {
+		2F9AAF60216B669300191D94 /* Build configuration list for PBXNativeTarget "PDFGraphics-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F9AAF61216B669300191D94 /* Debug */,
